@@ -1,0 +1,2 @@
+MeanAbsoluteError: 13.84knots
+RootMeanSquareError: 17.12knots

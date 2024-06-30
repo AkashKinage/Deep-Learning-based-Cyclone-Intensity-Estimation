@@ -1,0 +1,53 @@
+CNN Model Layers:
+3 Convolution layer
+2 Maxpooling
+1 Batch Normalization
+1 Dropout
+3 Dense (FC)
+
+Conv2D
+BatchNormalization
+MaxPooling2D
+
+Conv2D
+MaxPooling2D
+
+Conv2D
+Flatten
+Dropout
+
+Dense
+Dense
+Dense
+
+
+
+CNN and RNN Layers:
+3 Convolution layer
+3 Maxpooling
+3 Batch Normalization
+2 Dropout
+3 Dense (FC)
+2 SimpleRNN
+
+Conv2D
+Dropout
+BatchNormalization
+MaxPooling2D
+
+Conv2D
+BatchNormalization
+MaxPooling2D
+
+Conv2D
+BatchNormalization
+MaxPooling2D
+
+Flatten
+Dropout
+Dense
+
+SimpleRNN
+SimpleRNN
+Dense
+Dense
